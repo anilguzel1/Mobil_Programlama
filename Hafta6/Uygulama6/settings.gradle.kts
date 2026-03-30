@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RenkliSüre"
+rootProject.name = "Uygulama6"
 include(":app")
- 

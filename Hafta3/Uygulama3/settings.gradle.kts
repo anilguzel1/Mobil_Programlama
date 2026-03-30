@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Hafta6kod"
+rootProject.name = "Uygulama3"
 include(":app")
+ 
