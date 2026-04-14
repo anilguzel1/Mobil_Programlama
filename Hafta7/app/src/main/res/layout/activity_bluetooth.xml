@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnBluetoothOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Aç" />
+
+    <Button
+        android:id="@+id/btnBluetoothOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Kapat" />
+
+    <Button
+        android:id="@+id/btnBluetoothList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cihazları Listele" />
+
+    <Button
+        android:id="@+id/btnBluetoothVisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Görünür Ol" />
+
+    <ListView
+        android:id="@+id/lvBluetoothDevices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
