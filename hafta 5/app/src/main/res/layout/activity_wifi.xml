@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnWifiOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi Aç" />
+
+    <Button
+        android:id="@+id/btnWifiOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi Kapat" />
+
+    <Button
+        android:id="@+id/btnWifiList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktif Wifi'leri Listele" />
+
+    <ListView
+        android:id="@+id/lvWifiList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

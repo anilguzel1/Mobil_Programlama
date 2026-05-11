@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Üst bar: soru sayacı sağ üstte -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#1A237E"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvSayac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:text="1/1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <!-- Soru metni -->
+    <TextView
+        android:id="@+id/tvSoru"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#1A237E"
+        android:textStyle="bold" />
+
+    <!-- Şık butonları -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="#1976D2"
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp"
+            android:text="A)" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="#1976D2"
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp"
+            android:text="B)" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="#1976D2"
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp"
+            android:text="C)" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="15sp"
+            android:backgroundTint="#1976D2"
+            android:gravity="center_vertical|start"
+            android:paddingStart="16dp"
+            android:text="D)" />
+
+    </LinearLayout>
+
+</LinearLayout>
